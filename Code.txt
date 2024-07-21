@@ -1,0 +1,157 @@
+Sub MergeAndAddHeadersWithColorBordersAndIncreasedRowHeight()
+    With ActiveSheet
+        ' Merge and center "CARRIER REGISTRATION INFORMATION"
+        With .Range("B1:Q1")
+            .Merge
+            .Value = "CARRIER REGISTRATION INFORMATION"
+            .HorizontalAlignment = xlCenter
+            .Interior.Color = RGB(226, 239, 218)
+            .Borders.LineStyle = xlContinuous
+            .Borders.Weight = xlThin ' Set border weight to thin
+        End With
+
+        ' Apply formatting to the second row without text
+        With .Range("B2:Q2")
+            .Interior.Color = RGB(226, 239, 218)
+            .Borders.LineStyle = xlContinuous
+            .Borders.Weight = xlThin ' Set border weight to thin
+            .WrapText = True ' Wrap text
+            .RowHeight = 45 ' Adjust row height
+        End With
+
+        ' Merge and center "OPERATION CLASSIFICATION"
+        With .Range("R1:AC1")
+            .Merge
+            .Value = "OPERATION CLASSIFICATION"
+            .HorizontalAlignment = xlCenter
+            .Interior.Color = RGB(221, 235, 247)
+            .Borders.LineStyle = xlContinuous
+            .Borders.Weight = xlThin ' Set border weight to thin
+        End With
+
+        ' Apply formatting to the second row without text
+        With .Range("R2:AC2")
+            .Interior.Color = RGB(221, 235, 247)
+            .Borders.LineStyle = xlContinuous
+            .Borders.Weight = xlThin ' Set border weight to thin
+            .WrapText = True ' Wrap text
+            .RowHeight = 45 ' Adjust row height
+        End With
+
+        ' Merge and center "CARGO CARRIED"
+        With .Range("AD1:BG1")
+            .Merge
+            .Value = "CARGO CARRIED"
+            .HorizontalAlignment = xlCenter
+            .Interior.Color = RGB(252, 228, 214)
+            .Borders.LineStyle = xlContinuous
+            .Borders.Weight = xlThin ' Set border weight to thin
+        End With
+
+        ' Apply formatting to the second row without text
+        With .Range("AD2:BG2")
+            .Interior.Color = RGB(252, 228, 214)
+            .Borders.LineStyle = xlContinuous
+            .Borders.Weight = xlThin ' Set border weight to thin
+            .WrapText = True ' Wrap text
+            .RowHeight = 45 ' Adjust row height
+        End With
+
+        ' Merge and center "VEHICLE TYPE BREAKDOWN"
+        With .Range("BH1:BV1")
+            .Merge
+            .Value = "VEHICLE TYPE BREAKDOWN"
+            .HorizontalAlignment = xlCenter
+            .Interior.Color = RGB(255, 242, 204)
+            .Borders.LineStyle = xlContinuous
+            .Borders.Weight = xlThin ' Set border weight to thin
+        End With
+
+        ' Apply formatting to the second row without text
+        With .Range("BH2:BV2")
+            .Interior.Color = RGB(255, 242, 204)
+            .Borders.LineStyle = xlContinuous
+            .Borders.Weight = xlThin ' Set border weight to thin
+            .WrapText = True ' Wrap text
+            .RowHeight = 45 ' Adjust row height
+        End With
+
+        ' Populate range A2:BV2 with specified cell information
+        .Range("A2") = "U.S. DOT#"
+        .Range("B2") = "Legal Name:"
+        .Range("C2") = "DBA Name:"
+        .Range("D2") = "Address"
+        .Range("E2") = "Telephone"
+        .Range("F2") = "Fax"
+        .Range("G2") = "Email"
+        .Range("H2") = "Vehicle Miles Traveled"
+        .Range("I2") = "VMT Year"
+        .Range("J2") = "Power Units"
+        .Range("K2") = "DUNS Number:"
+        .Range("L2") = "Drivers"
+        .Range("M2") = "Carrier Operation"
+        .Range("N2") = "Passenger"
+        .Range("O2") = "HM"
+        .Range("P2") = "HHG"
+        .Range("Q2") = "New Entrant"
+        .Range("R2") = "AUTHORIZED FOR HIRE"
+        .Range("S2") = "PRIVATE PASSENGER, BUSINESS"
+        .Range("T2") = "U. S. MAIL"
+        .Range("U2") = "LOCAL GOVERNMENT"
+        .Range("V2") = "EXEMPT FOR HIRE"
+        .Range("W2") = "PRIVATE PASSENGER, NON-BUSINESS"
+        .Range("X2") = "FEDERAL GOVERNMENT"
+        .Range("Y2") = "INDIAN TRIBE"
+        .Range("Z2") = "PRIVATE PROPERTY"
+        .Range("AA2") = "MIGRANT"
+        .Range("AB2") = "STATE GOVERNMENT"
+        .Range("AC2") = "OTHER"
+        .Range("AD2") = "GENERAL FREIGHT"
+        .Range("AE2") = "MOTOR VEHICLES"
+        .Range("AF2") = "BUILDING MATERIALS"
+        .Range("AG2") = "FRESH PRODUCE"
+         .Range("AH2") = "PASSENGERS"
+        .Range("AI2") = "GRAIN, FEED, HAY"
+        .Range("AJ2") = "GARBAGE, REFUSE, TRASH"
+        .Range("AK2") = "COMMODITIES DRY BULK"
+        .Range("AL2") = "PAPER PRODUCTS"
+        .Range("AM2") = "CONSTRUCTION"
+        .Range("AN2") = "HOUSEHOLD GOODS"
+        .Range("AO2") = "DRIVE AWAY/TOWAWAY"
+        .Range("AP2") = "MOBILE HOMES"        
+	.Range("AQ2") = "LIQUIDS/GASES"
+        .Range("AR2") = "OIL FIELD EQUIPMENT"
+        .Range("AS2") = "COAL, COKE"
+        .Range("AT2") = "U.S. MAIL"
+        .Range("AU2") = "REFRIGERATED FOOD"
+        .Range("AV2") = "UTILITY"
+        .Range("AW2") = "WATER WELL"
+        .Range("AX2") = "METAL; SHEETS, COILS, ROLLS"
+        .Range("AY2") = "LOGS, POLES, BEAMS, LUMBER"
+        .Range("AZ2") = "MACHINERY, LARGE OBJECTS"
+        .Range("BA2") = "INTERMODAL CONTAINERS"
+        .Range("BB2") = "LIVESTOCK"
+        .Range("BC2") = "MEAT"
+        .Range("BD2") = "CHEMICALS"
+        .Range("BE2") = "BEVERAGES"
+        .Range("BF2") = "FARM SUPPLIES"
+        .Range("BG2") = "OTHER"
+        .Range("BH2") = "Straight Trucks"
+        .Range("BI2") = "Truck Tractors"
+        .Range("BJ2") = "Trailers*"
+        .Range("BK2") = "Hazmat Cargo Tank Trailers*"
+        .Range("BL2") = "Hazmat Cargo Tank Trucks"
+        .Range("BM2") = "Motor Coach"
+        .Range("BN2") = "School Bus 1-8*"
+        .Range("BO2") = "School Bus 9-15"
+        .Range("BP2") = "School Bus 16+"
+        .Range("BQ2") = "Mini-Bus 16+"
+        .Range("BR2") = "Van 1-8*"
+        .Range("BS2") = "Van 9-15"
+        .Range("BT2") = "Limousine 1-8*"
+        .Range("BU2") = "Limousine 9-15"
+        .Range("BV2") = "Limousine 16+"
+    End With
+End Sub
+
+
