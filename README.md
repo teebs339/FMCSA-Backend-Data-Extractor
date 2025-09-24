@@ -9,16 +9,12 @@ It uses **HTTP requests** to pull company data, applies **RegEx** to parse and t
 
 A built-in **VBA script** automatically applies formatting to the final Excel file, so you get a polished report out of the box.
 
----
-
 ## Features
 
 * Automates data retrieval from FMCSA backend.
 * Parses and cleans data with **regular expressions**.
 * Generates a formatted **Excel report** with VBA styling.
 * Simple input file structure for easy customization.
-
----
 
 ## Requirements
 
@@ -49,8 +45,6 @@ A built-in **VBA script** automatically applies formatting to the final Excel fi
    * Launch UiPath Studio.
    * Open the project folder you just cloned.
 
----
-
 ## Usage
 
 1. In the **Input** folder, open `Input.xlsx`.
@@ -60,14 +54,10 @@ A built-in **VBA script** automatically applies formatting to the final Excel fi
 3. Run the bot in UiPath.
 4. Once completed, the bot will generate `Report.xlsx` inside the **Output** folder, formatted and ready to use.
 
----
-
 ## Contributing
 
 Feel free to **fork this repo**, suggest improvements, or open issues.
 If you have questions, drop a message in the discussions section.
-
----
 
 ## Disclaimer
 
