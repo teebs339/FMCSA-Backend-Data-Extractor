@@ -1,4 +1,4 @@
-# FMCSA Backend Data Extractor 🚚
+# FMCSA Backend Data Extractor
 
 [![UiPath](https://img.shields.io/badge/UiPath-RPA-blue)](https://www.uipath.com/)
 [![Excel](https://img.shields.io/badge/Excel-Macros-green)](https://www.microsoft.com/en-us/microsoft-365/excel)
@@ -11,7 +11,7 @@ A built-in **VBA script** automatically applies formatting to the final Excel fi
 
 ---
 
-## 💾 Features
+## Features
 
 * Automates data retrieval from FMCSA backend.
 * Parses and cleans data with **regular expressions**.
@@ -20,14 +20,14 @@ A built-in **VBA script** automatically applies formatting to the final Excel fi
 
 ---
 
-## ⚙️ Requirements
+## Requirements
 
 * [UiPath Studio](https://www.uipath.com/) installed on your machine.
 * Microsoft Excel with macros enabled.
 
 ---
 
-## 🔧 Setup & Installation
+## Setup & Installation
 
 1. **Clone this repository**
 
@@ -51,7 +51,7 @@ A built-in **VBA script** automatically applies formatting to the final Excel fi
 
 ---
 
-## ▶️ Usage
+## Usage
 
 1. In the **Input** folder, open `Input.xlsx`.
 2. Replace the sample values in the **MX Number** column with your own MX Number(s) or US DOT Number(s).
@@ -62,13 +62,13 @@ A built-in **VBA script** automatically applies formatting to the final Excel fi
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 Feel free to **fork this repo**, suggest improvements, or open issues.
 If you have questions, drop a message in the discussions section.
 
 ---
 
-## 📜 Disclaimer
+## Disclaimer
 
 This project uses public FMCSA data. Please ensure your use complies with FMCSA’s [data policies](https://www.fmcsa.dot.gov/registration/fmcsa-data-disclaimer) and terms of service.
