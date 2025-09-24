@@ -21,8 +21,6 @@ A built-in **VBA script** automatically applies formatting to the final Excel fi
 * [UiPath Studio](https://www.uipath.com/) installed on your machine.
 * Microsoft Excel with macros enabled.
 
----
-
 ## Setup & Installation
 
 1. **Clone this repository**
